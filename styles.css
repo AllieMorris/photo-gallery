@@ -1,11 +1,39 @@
-h1 {
-  color: gray;
+* {
+  font-family: 'Quicksand', sans-serif;
 }
+
+h1 {
+  color: #7A786E;
+  text-align: center;
+  border: dashed 3px;
+  border-color: #99968A;
+  margin-left: 525px;
+  margin-right: 525px;
+}
+
 img {
   width: 200px;
   height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 section {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+body {
+  background-image: url(http://pinwhirls.com/images/nauticaltbluestripessm.png)
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background-image: url(http://www.commentnation.com/hotlinks/lavender_and_white_diagonal_stripes_background_seamless.gif)
+  }
+  h1 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
